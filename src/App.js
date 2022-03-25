@@ -1,13 +1,14 @@
 import React from "react"
 import "./App.css"
-import FunctionComponent from "./"
+import ReactstrapBadges from "./Compoenent/R035_ReactstrapBadges"
+import "bootstrap/dist/css/bootstrap.css"
 
 const App = () => {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <FunctionComponent contents="[THIS IS FunctionComponent ]" />
+      <ReactstrapBadges />
     </div>
   )
 }
